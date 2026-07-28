@@ -1,0 +1,24 @@
+{
+  "name": "genpark-database-migration-sql-optimizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - SQL schema migration and query performance optimizer.",
+  "author": "genpark",
+  "category": "developer",
+  "tags": [
+    "developer",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "query": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "optimized_sql": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
